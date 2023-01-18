@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+
+*{
+    font-family: 'Barlow Semi Condensed', sans-serif; 
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+    padding: 100px 150px;
+}
+
+
+
+/* container-1 */
+
+
+.container-1{
+background-color:hsl(263, 55%, 52%) ;
+display: flex;
+flex-wrap: wrap;
+width: 580px;
+height: 300px;
+border-radius: 15px;
+padding:25px;
+
+}
+
+
+.dan img{
+    border: 2px solid  white;
+    border-radius: 30px;
+    position: relative;
+    right: 35px;
+   
+}
+
+figcaption{
+    position: relative;
+    left: 40px;
+    bottom: 50px;
+    right: 20px;
+    color: white;
+}
+
+.grad{
+    position: relative;
+    top: 20px;
+    right: 95px;
+    color:white;
+    opacity: 50%;
+}
+
+
+.small{
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    bottom: 40px;
+
+}
+
+.big{
+    color: white;
+    opacity: 75%;;
+    position: relative;
+    bottom: 40px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* container-2 */
+
+.container-2{
+    background-color: hsl(217, 19%, 35%);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px; 
+    width: 235px;
+    padding: 25px;
+    height: 300px;
+    position: relative;
+    left: 650px;
+    bottom: 350px;
+
+}
+
+.jon img{
+    border: 2px solid  white;
+    border-radius: 30px;
+    position: relative;
+    right: 35px;
+}
+
+
+ .verify{
+     opacity: 50%;
+} 
+
+.small1{
+    color: white;
+    font-size: 25px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 60px;
+}
+
+
+.big1{
+    color: white;
+    opacity: 75%;;
+    position: relative;
+    bottom: 60px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* container-3 */
+.container-3{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    border-radius: 15px; 
+    width: 234px;
+    padding: 25px;
+    height: 300px;
+    position: relative;
+    bottom: 325px;
+   
+}
+
+.jea img{
+    border: 2px solid  hsl(0, 0, 100%);
+    border-radius: 30px;
+    position: relative;
+    right: 35px;
+}
+
+
+.small2{
+    color: hsl(219, 29%, 14%);
+    font-size: 30px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 60px;
+}
+
+
+.big2{
+    color: hsl(0, 0, 100%);
+    opacity: 75%;;
+    position: relative;
+    bottom: 70px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.je{
+    position: relative;
+    left: 40px;
+    bottom: 50px;
+    right: 20px;
+    color: hsl(219, 29%, 14%);
+}
+
+
+
+/* container-4 */
+
+.container-4{
+    background-color:hsl(219, 29%, 14%) ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 580px;
+    height: 300px;
+    border-radius: 15px;
+    padding:25px;
+    position: relative;
+    left: 310px;
+    bottom: 675px;
+    
+    }
+    
+    
+    .pat img{
+        border: 2px solid hsl(263, 55%, 52%);
+        border-radius: 30px;
+        position: relative;
+        right: 35px;
+       
+    }
+    
+    figcaption{
+        position: relative;
+        left: 40px;
+        bottom: 50px;
+        right: 20px;
+        color: white;
+    }
+    
+    .grad{
+        position: relative;
+        top: 20px;
+        right: 95px;
+        color:white;
+        opacity: 50%;
+    }
+    
+    
+    .small4{
+        color: white;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        position: relative;
+        bottom: 40px;
+    }
+    
+    .big4{
+        color: white;
+        opacity: 75%;;
+        position: relative;
+        bottom: 40px;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+
+    /* container-5 */
+
+    .container-5{
+        background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    border-radius: 15px; 
+    width: 200px;
+    padding: 25px;
+    height: 675px;
+    position: relative;
+    left: 960px;
+    bottom: 1403px;
+     }
+        
+        
+        .ki img{
+            border: 2px solid hsl(0%, 0%, 100%);
+            border-radius: 30px;
+            position: relative;
+            right: 35px;
+           
+        }
+        
+        .small5{
+            color: hsl(219, 29%, 14%);
+            font-size: 25px;
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-weight: 600;
+            position: relative;
+            bottom: 60px;
+        }
+        
+        
+        .big5{
+            color: hsl(0, 0, 100%);
+            opacity: 75%;;
+            position: relative;
+            bottom: 70px;
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        
+        .kir{
+            position: relative;
+            left: 40px;
+            bottom: 50px;
+            right: 20px;
+            color: hsl(219, 29%, 14%);
+        }
+        
+        
+        @media (max-width:375px){
+
+         .container{
+            display: grid;
+            grid-template-columns:repeat(2,1fr);
+         }
+
+
+
+
+            body{
+                background-color: hsl(210, 46%, 95%);
+                padding: 100px 150px;
+            }
+            
+            
+            
+            /* container-1 */
+            
+            
+            .container-1{
+            background-color:hsl(263, 55%, 52%) ;
+            display: flex;
+            flex-wrap: wrap;
+            width: 580px;
+            height: 300px;
+            border-radius: 15px;
+            padding:25px;
+            
+            }
+            
+            
+            .dan img{
+                border: 2px solid  white;
+                border-radius: 30px;
+                position: relative;
+                right: 35px;
+               
+            }
+            
+            figcaption{
+                position: relative;
+                left: 40px;
+                bottom: 50px;
+                right: 20px;
+                color: white;
+            }
+            
+            .grad{
+                position: relative;
+                top: 20px;
+                right: 95px;
+                color:white;
+                opacity: 50%;
+            }
+            
+            
+            .small{
+                color: white;
+                font-family: 'Barlow Semi Condensed', sans-serif;
+                font-weight: 600;
+                font-size: 25px;
+                position: relative;
+                bottom: 40px;
+            
+            }
+            
+            .big{
+                color: white;
+                opacity: 75%;;
+                position: relative;
+                bottom: 40px;
+                font-family: 'Barlow Semi Condensed', sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+            }
+            
+            
+            /* container-2 */
+            
+            .container-2{
+                background-color: hsl(217, 19%, 35%);
+                display: flex;
+                flex-wrap: wrap;
+                border-radius: 15px; 
+                width: 235px;
+                padding: 25px;
+                height: 300px;
+                position: relative;
+                left: 650px;
+                bottom: 350px;
+            
+            }
+            
+            .jon img{
+                border: 2px solid  white;
+                border-radius: 30px;
+                position: relative;
+                right: 35px;
+            }
+            
+            
+             .verify{
+                 opacity: 50%;
+            } 
+            
+            .small1{
+                color: white;
+                font-size: 25px;
+                font-family: 'Barlow Semi Condensed', sans-serif;
+                font-weight: 600;
+                position: relative;
+                bottom: 60px;
+            }
+            
+            
+            .big1{
+                color: white;
+                opacity: 75%;;
+                position: relative;
+                bottom: 60px;
+                font-family: 'Barlow Semi Condensed', sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+            }
+            
+            
+            /* container-3 */
+            .container-3{
+                background-color: white;
+                display: flex;
+                flex-wrap: wrap;
+                border: 1px solid white;
+                border-radius: 15px; 
+                width: 234px;
+                padding: 25px;
+                height: 300px;
+                position: relative;
+                bottom: 325px;
+               
+            }
+            
+            .jea img{
+                border: 2px solid  hsl(0, 0, 100%);
+                border-radius: 30px;
+                position: relative;
+                right: 35px;
+            }
+            
+            
+            .small2{
+                color: hsl(219, 29%, 14%);
+                font-size: 30px;
+                font-family: 'Barlow Semi Condensed', sans-serif;
+                font-weight: 600;
+                position: relative;
+                bottom: 60px;
+            }
+            
+            
+            .big2{
+                color: hsl(0, 0, 100%);
+                opacity: 75%;;
+                position: relative;
+                bottom: 70px;
+                font-family: 'Barlow Semi Condensed', sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+            }
+            
+            .je{
+                position: relative;
+                left: 40px;
+                bottom: 50px;
+                right: 20px;
+                color: hsl(219, 29%, 14%);
+            }
+            
+            
+            
+            /* container-4 */
+            
+            .container-4{
+                background-color:hsl(219, 29%, 14%) ;
+                display: flex;
+                flex-wrap: wrap;
+                width: 580px;
+                height: 300px;
+                border-radius: 15px;
+                padding:25px;
+                position: relative;
+                left: 310px;
+                bottom: 675px;
+                
+                }
+                
+                
+                .pat img{
+                    border: 2px solid hsl(263, 55%, 52%);
+                    border-radius: 30px;
+                    position: relative;
+                    right: 35px;
+                   
+                }
+                
+                figcaption{
+                    position: relative;
+                    left: 40px;
+                    bottom: 50px;
+                    right: 20px;
+                    color: white;
+                }
+                
+                .grad{
+                    position: relative;
+                    top: 20px;
+                    right: 95px;
+                    color:white;
+                    opacity: 50%;
+                }
+                
+                
+                .small4{
+                    color: white;
+                    font-family: 'Barlow Semi Condensed', sans-serif;
+                    font-weight: 600;
+                    font-size: 25px;
+                    position: relative;
+                    bottom: 40px;
+                }
+                
+                .big4{
+                    color: white;
+                    opacity: 75%;;
+                    position: relative;
+                    bottom: 40px;
+                    font-family: 'Barlow Semi Condensed', sans-serif;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+                
+            
+                /* container-5 */
+            
+                .container-5{
+                    background-color: white;
+                display: flex;
+                flex-wrap: wrap;
+                border: 1px solid white;
+                border-radius: 15px; 
+                width: 200px;
+                padding: 25px;
+                height: 675px;
+                position: relative;
+                left: 960px;
+                bottom: 1403px;
+                 }
+                    
+                    
+                    .ki img{
+                        border: 2px solid hsl(0%, 0%, 100%);
+                        border-radius: 30px;
+                        position: relative;
+                        right: 35px;
+                       
+                    }
+                    
+                    .small5{
+                        color: hsl(219, 29%, 14%);
+                        font-size: 25px;
+                        font-family: 'Barlow Semi Condensed', sans-serif;
+                        font-weight: 600;
+                        position: relative;
+                        bottom: 60px;
+                    }
+                    
+                    
+                    .big5{
+                        color: hsl(0, 0, 100%);
+                        opacity: 75%;;
+                        position: relative;
+                        bottom: 70px;
+                        font-family: 'Barlow Semi Condensed', sans-serif;
+                        font-weight: 500;
+                        font-size: 16px;
+                    }
+                    
+                    .kir{
+                        position: relative;
+                        left: 40px;
+                        bottom: 50px;
+                        right: 20px;
+                        color: hsl(219, 29%, 14%);
+                    }
+                    
+            
+
+        }
+        
+        
+        
+        
